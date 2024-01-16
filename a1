@@ -1,0 +1,10 @@
+public class j1
+{
+      public static void main(String args[])
+      {
+        //automatic type promotion in expression
+        int a=257;
+        byte b=(byte)a;//byte= 0-256
+        System.err.println(b);//257%256=1
+      }
+}
